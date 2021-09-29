@@ -12,4 +12,4 @@ def mousePressEvent(event):
     global clickPosition
     clickPosition = event.globalPos()
 
-label1.mousePressEvent = mousePressEvent #label clicked signal
+label1.mousePressEvent = mousePressEvent
